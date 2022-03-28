@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Server side API for File Upload Example",
+  "main": "index.js",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "nodemon": "^2.0.15",
+    "pdf2json": "^2.0.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddharth Seth",
+  "license": "ISC"
+}
